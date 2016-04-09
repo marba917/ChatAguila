@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2477005E1CB8859B00E674F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2477005D1CB8859B00E674F0 /* AppDelegate.swift */; };
+		247700601CB8859B00E674F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2477005F1CB8859B00E674F0 /* ViewController.swift */; };
+		247700631CB8859B00E674F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247700611CB8859B00E674F0 /* Main.storyboard */; };
+		247700651CB8859B00E674F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247700641CB8859B00E674F0 /* Assets.xcassets */; };
+		247700681CB8859B00E674F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247700661CB8859B00E674F0 /* LaunchScreen.storyboard */; };
+		247700731CB8859B00E674F0 /* ChatAguilaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247700721CB8859B00E674F0 /* ChatAguilaTests.swift */; };
+		2477007E1CB8859B00E674F0 /* ChatAguilaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2477007D1CB8859B00E674F0 /* ChatAguilaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2477006F1CB8859B00E674F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 247700521CB8859B00E674F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 247700591CB8859B00E674F0;
+			remoteInfo = ChatAguila;
+		};
+		2477007A1CB8859B00E674F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 247700521CB8859B00E674F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 247700591CB8859B00E674F0;
+			remoteInfo = ChatAguila;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2477005A1CB8859B00E674F0 /* ChatAguila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAguila.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2477005D1CB8859B00E674F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2477005F1CB8859B00E674F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		247700621CB8859B00E674F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		247700641CB8859B00E674F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		247700671CB8859B00E674F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		247700691CB8859B00E674F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2477006E1CB8859B00E674F0 /* ChatAguilaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAguilaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		247700721CB8859B00E674F0 /* ChatAguilaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAguilaTests.swift; sourceTree = "<group>"; };
+		247700741CB8859B00E674F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247700791CB8859B00E674F0 /* ChatAguilaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAguilaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2477007D1CB8859B00E674F0 /* ChatAguilaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAguilaUITests.swift; sourceTree = "<group>"; };
+		2477007F1CB8859B00E674F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		247700571CB8859B00E674F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2477006B1CB8859B00E674F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247700761CB8859B00E674F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		247700511CB8859B00E674F0 = {
+			isa = PBXGroup;
+			children = (
+				2477005C1CB8859B00E674F0 /* ChatAguila */,
+				247700711CB8859B00E674F0 /* ChatAguilaTests */,
+				2477007C1CB8859B00E674F0 /* ChatAguilaUITests */,
+				2477005B1CB8859B00E674F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2477005B1CB8859B00E674F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2477005A1CB8859B00E674F0 /* ChatAguila.app */,
+				2477006E1CB8859B00E674F0 /* ChatAguilaTests.xctest */,
+				247700791CB8859B00E674F0 /* ChatAguilaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2477005C1CB8859B00E674F0 /* ChatAguila */ = {
+			isa = PBXGroup;
+			children = (
+				2477005D1CB8859B00E674F0 /* AppDelegate.swift */,
+				2477005F1CB8859B00E674F0 /* ViewController.swift */,
+				247700611CB8859B00E674F0 /* Main.storyboard */,
+				247700641CB8859B00E674F0 /* Assets.xcassets */,
+				247700661CB8859B00E674F0 /* LaunchScreen.storyboard */,
+				247700691CB8859B00E674F0 /* Info.plist */,
+			);
+			path = ChatAguila;
+			sourceTree = "<group>";
+		};
+		247700711CB8859B00E674F0 /* ChatAguilaTests */ = {
+			isa = PBXGroup;
+			children = (
+				247700721CB8859B00E674F0 /* ChatAguilaTests.swift */,
+				247700741CB8859B00E674F0 /* Info.plist */,
+			);
+			path = ChatAguilaTests;
+			sourceTree = "<group>";
+		};
+		2477007C1CB8859B00E674F0 /* ChatAguilaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2477007D1CB8859B00E674F0 /* ChatAguilaUITests.swift */,
+				2477007F1CB8859B00E674F0 /* Info.plist */,
+			);
+			path = ChatAguilaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		247700591CB8859B00E674F0 /* ChatAguila */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247700821CB8859B00E674F0 /* Build configuration list for PBXNativeTarget "ChatAguila" */;
+			buildPhases = (
+				247700561CB8859B00E674F0 /* Sources */,
+				247700571CB8859B00E674F0 /* Frameworks */,
+				247700581CB8859B00E674F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatAguila;
+			productName = ChatAguila;
+			productReference = 2477005A1CB8859B00E674F0 /* ChatAguila.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2477006D1CB8859B00E674F0 /* ChatAguilaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247700851CB8859B00E674F0 /* Build configuration list for PBXNativeTarget "ChatAguilaTests" */;
+			buildPhases = (
+				2477006A1CB8859B00E674F0 /* Sources */,
+				2477006B1CB8859B00E674F0 /* Frameworks */,
+				2477006C1CB8859B00E674F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				247700701CB8859B00E674F0 /* PBXTargetDependency */,
+			);
+			name = ChatAguilaTests;
+			productName = ChatAguilaTests;
+			productReference = 2477006E1CB8859B00E674F0 /* ChatAguilaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		247700781CB8859B00E674F0 /* ChatAguilaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247700881CB8859B00E674F0 /* Build configuration list for PBXNativeTarget "ChatAguilaUITests" */;
+			buildPhases = (
+				247700751CB8859B00E674F0 /* Sources */,
+				247700761CB8859B00E674F0 /* Frameworks */,
+				247700771CB8859B00E674F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2477007B1CB8859B00E674F0 /* PBXTargetDependency */,
+			);
+			name = ChatAguilaUITests;
+			productName = ChatAguilaUITests;
+			productReference = 247700791CB8859B00E674F0 /* ChatAguilaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		247700521CB8859B00E674F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "TAKTIL INC";
+				TargetAttributes = {
+					247700591CB8859B00E674F0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2477006D1CB8859B00E674F0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 247700591CB8859B00E674F0;
+					};
+					247700781CB8859B00E674F0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 247700591CB8859B00E674F0;
+					};
+				};
+			};
+			buildConfigurationList = 247700551CB8859B00E674F0 /* Build configuration list for PBXProject "ChatAguila" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 247700511CB8859B00E674F0;
+			productRefGroup = 2477005B1CB8859B00E674F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				247700591CB8859B00E674F0 /* ChatAguila */,
+				2477006D1CB8859B00E674F0 /* ChatAguilaTests */,
+				247700781CB8859B00E674F0 /* ChatAguilaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		247700581CB8859B00E674F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247700681CB8859B00E674F0 /* LaunchScreen.storyboard in Resources */,
+				247700651CB8859B00E674F0 /* Assets.xcassets in Resources */,
+				247700631CB8859B00E674F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2477006C1CB8859B00E674F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247700771CB8859B00E674F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		247700561CB8859B00E674F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247700601CB8859B00E674F0 /* ViewController.swift in Sources */,
+				2477005E1CB8859B00E674F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2477006A1CB8859B00E674F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247700731CB8859B00E674F0 /* ChatAguilaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247700751CB8859B00E674F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2477007E1CB8859B00E674F0 /* ChatAguilaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		247700701CB8859B00E674F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 247700591CB8859B00E674F0 /* ChatAguila */;
+			targetProxy = 2477006F1CB8859B00E674F0 /* PBXContainerItemProxy */;
+		};
+		2477007B1CB8859B00E674F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 247700591CB8859B00E674F0 /* ChatAguila */;
+			targetProxy = 2477007A1CB8859B00E674F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		247700611CB8859B00E674F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				247700621CB8859B00E674F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		247700661CB8859B00E674F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				247700671CB8859B00E674F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		247700801CB8859B00E674F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		247700811CB8859B00E674F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		247700831CB8859B00E674F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChatAguila/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taktil.ChatAguila;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		247700841CB8859B00E674F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChatAguila/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taktil.ChatAguila;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		247700861CB8859B00E674F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChatAguilaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taktil.ChatAguilaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatAguila.app/ChatAguila";
+			};
+			name = Debug;
+		};
+		247700871CB8859B00E674F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChatAguilaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taktil.ChatAguilaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatAguila.app/ChatAguila";
+			};
+			name = Release;
+		};
+		247700891CB8859B00E674F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChatAguilaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taktil.ChatAguilaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChatAguila;
+			};
+			name = Debug;
+		};
+		2477008A1CB8859B00E674F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChatAguilaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taktil.ChatAguilaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChatAguila;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		247700551CB8859B00E674F0 /* Build configuration list for PBXProject "ChatAguila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247700801CB8859B00E674F0 /* Debug */,
+				247700811CB8859B00E674F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247700821CB8859B00E674F0 /* Build configuration list for PBXNativeTarget "ChatAguila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247700831CB8859B00E674F0 /* Debug */,
+				247700841CB8859B00E674F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		247700851CB8859B00E674F0 /* Build configuration list for PBXNativeTarget "ChatAguilaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247700861CB8859B00E674F0 /* Debug */,
+				247700871CB8859B00E674F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		247700881CB8859B00E674F0 /* Build configuration list for PBXNativeTarget "ChatAguilaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247700891CB8859B00E674F0 /* Debug */,
+				2477008A1CB8859B00E674F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 247700521CB8859B00E674F0 /* Project object */;
+}
